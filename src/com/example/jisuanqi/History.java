@@ -22,7 +22,7 @@ public class History extends ListActivity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		list = new ArrayList<Event>();
-
+   
 		list.add(new Event("sad", "fdsa", 10, 28));
 		list.add(new Event("sad", "fdsa", 10, 28));
 		list.add(new Event("sad", "fdsa", 10, 28));
