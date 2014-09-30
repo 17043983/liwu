@@ -6,5 +6,7 @@
     <string name="action_history">历史记录</string>
     <string name="tv_huanquan">花圈</string>
     <string name="tv_linba">淋巴</string>
+    <string name="tv_name">点我给任务命名</string>
+    <string name="tv_num">0</string>
 
 </resources>
