@@ -4,5 +4,7 @@
     <string name="app_name">礼物</string>
     <string name="action_add">新建任务</string>
     <string name="action_history">历史记录</string>
+    <string name="tv_huanquan">花圈</string>
+    <string name="tv_linba">淋巴</string>
 
 </resources>

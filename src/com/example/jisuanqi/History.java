@@ -2,6 +2,7 @@ package com.example.jisuanqi;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import android.app.ListActivity;
 import android.content.Context;
 import android.os.Bundle;
@@ -9,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
 public class History extends ListActivity {
@@ -22,14 +22,14 @@ public class History extends ListActivity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		list = new ArrayList<Event>();
-   
-		list.add(new Event("sad", "fdsa", 10, 28));
-		list.add(new Event("sad", "fdsa", 10, 28));
-		list.add(new Event("sad", "fdsa", 10, 28));
-		list.add(new Event("sad", "fdsa", 10, 28));
-		list.add(new Event("sad", "fdsa", 10, 28));
-		list.add(new Event("sad", "fdsa", 10, 28));
-		list.add(new Event("sad", "fdsa", 10, 28));
+
+		// list.add(new Event("sad", "fdsa", 10, 28));
+		// list.add(new Event("sad", "fdsa", 10, 28));
+		// list.add(new Event("sad", "fdsa", 10, 28));
+		// list.add(new Event("sad", "fdsa", 10, 28));
+		// list.add(new Event("sad", "fdsa", 10, 28));
+		// list.add(new Event("sad", "fdsa", 10, 28));
+		// list.add(new Event("sad", "fdsa", 10, 28));
 
 		adapter = new EventAdapter(this, R.layout.item_history, list);
 
